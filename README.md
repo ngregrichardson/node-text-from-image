@@ -1,8 +1,6 @@
 # Text from Image
 
 [![npm version](https://img.shields.io/npm/v/text-from-image.svg?style=flat-square)](https://www.npmjs.org/package/text-from-image)
-[![CDNJS](https://img.shields.io/cdnjs/v/text-from-image.svg?style=flat-square)](https://cdnjs.com/libraries/text-from-image)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/goyalabhi1305/tess-based-text-from-image) 
 [![install size](https://packagephobia.now.sh/badge?p=text-from-image)](https://packagephobia.now.sh/result?p=text-from-image)
 [![npm downloads](https://img.shields.io/npm/dm/text-from-image.svg?style=flat-square)](http://npm-stat.com/charts.html?package=text-from-image)
 [![npm](https://img.shields.io/npm/dm/text-from-image.svg?style=flat-square)](http://npm-stat.com/charts.html?package=text-from-image)
