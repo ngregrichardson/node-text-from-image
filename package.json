@@ -1,6 +1,6 @@
 {
   "name": "node-text-from-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick wrapper for Tesseract.js to extract text from images",
   "license": "ISC",
   "main": "lib/index.js",
