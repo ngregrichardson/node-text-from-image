@@ -4,10 +4,9 @@
   "description": "Quick wrapper for Tesseract.js to extract text from images",
   "license": "ISC",
   "main": "lib/index.js",
-  "types": "lib/idnex.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "publish": ""
+    "build": "tsc"
   },
   "keywords": [
     "text",
