@@ -3,3 +3,5 @@ eng.traineddata
 osd.traineddata
 .idea/
 lib/
+.env
+*.log

@@ -7,7 +7,7 @@
   "types": "lib/idnex.d.ts",
   "scripts": {
     "build": "tsc",
-    "release": "release-it"
+    "publish": ""
   },
   "keywords": [
     "text",

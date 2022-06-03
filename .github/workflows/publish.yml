@@ -1,8 +1,8 @@
 name: Publish to NPM
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [main]
 
 jobs:
   publish:
@@ -14,8 +14,8 @@ jobs:
           node-version: 14
       - run: yarn
       - run: yarn build
+      - run: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish
         run: npm publish --access public
-        working-directory: .
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
